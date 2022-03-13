@@ -72,13 +72,13 @@
         <input type="submit" value="Zaloguj">
     </form>
 
-    <h1>Zrejestruj Się</h1>
+    <h1>Zarejestruj Się</h1>
     <form action="login.php" method="post">
          <label for="emailInput">Email:</label>
          <input type="email" name="Email" id="emailInput">
          <label for="PasswordInput">Hasło:</label>
          <input type="password" name="Password" id="passwordInput">
-         <label for="passwordInput">Ponownie hasło:</label>
+         <label for="passwordInput">Powtórz hasło:</label>
          <input type="password" name="PasswordRepeat" id="PasswordRepeatInput">
          <label for="NameInput">Imię:</label>
          <input type="text" name="Name" id="NameInput">
