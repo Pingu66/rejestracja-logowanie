@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pl">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +7,6 @@
     <title>Marcin Logowanie</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
-
 <body>
     <?php
     if (isset($_REQUEST['action']) && $_REQUEST['action'] == 'login') {
@@ -87,7 +85,5 @@
          <input type="hidden" name="action" value="register">
          <input type="submit" value="Zarejestruj">
     </form>
- 
 </body>
-
 </html>
